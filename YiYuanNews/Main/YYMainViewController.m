@@ -14,6 +14,7 @@
 #import "YYNewsModule.h"
 
 #import "YYPicturesViewController.h"
+#import "YYJokeViewController.h"
 
 #import "ProfileViewController.h"
 
@@ -73,9 +74,14 @@ static const NSInteger lastestNewsCount = 10;
         lastestNewsVC.title = @"最新新闻";
         
         //搞笑图片
-        YYPicturesViewController *picVC = [[YYPicturesViewController alloc] init];
-        UINavigationController *picNav = [[UINavigationController alloc] initWithRootViewController:picVC];
-        picVC.title = @"搞笑图片";
+        //YYPicturesViewController *picVC = [[YYPicturesViewController alloc] init];
+        //UINavigationController *picNav = [[UINavigationController alloc] initWithRootViewController:picVC];
+        //picVC.title = @"搞笑图片";
+        
+        //开心一刻
+        YYJokeViewController *jokeVC = [[YYJokeViewController alloc] init];
+        UINavigationController *jokeNav = [[UINavigationController alloc] initWithRootViewController:jokeVC];
+        jokeVC.title = @"开心一刻";
         
         //个人中心
         ProfileViewController *profileVC = [[ProfileViewController alloc] init];
@@ -83,12 +89,12 @@ static const NSInteger lastestNewsCount = 10;
         profileVC.title = @"个人中心";
         
         
-        [self setViewControllers:@[lastestNewsNav, focuseNewsNav, picNav, profileNav] animated:YES];
+        [self setViewControllers:@[lastestNewsNav, focuseNewsNav, jokeNav, profileNav] animated:YES];
         UITabBar *tabBar = self.tabBar;
         
         [self setupChildViewController:lastestNewsNav title:lastestNewsVC.title imageName:@"tabbar_icon_news_normal" selectedImageName:@"tabbar_icon_news_highlight" tabBar:tabBar index:0];
         [self setupChildViewController:focuseNewsNav title:foucuseNewsVC.title imageName:@"tabbar_icon_news_normal" selectedImageName:@"tabbar_icon_news_highlight" tabBar:tabBar index:1];
-        [self setupChildViewController:picNav title:picVC.title imageName:@"tabbar_icon_news_normal" selectedImageName:@"tabbar_icon_news_highlight" tabBar:tabBar index:2];
+        [self setupChildViewController:jokeNav title:jokeVC.title imageName:@"tabbar_icon_news_normal" selectedImageName:@"tabbar_icon_news_highlight" tabBar:tabBar index:2];
         [self setupChildViewController:profileNav title:profileVC.title imageName:@"tabbar_icon_me_normal" selectedImageName:@"tabbar_icon_found_highlight" tabBar:tabBar index:3];
     }];
 

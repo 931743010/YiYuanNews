@@ -11,16 +11,29 @@
 #import "YYJokePicturesRequestParams.h"
 #import "YYJokePicturesResponseResult.h"
 
+#import "YYJokeRequestParams.h"
+#import "YYJokeResponseResult.h"
+
 @interface YYJokeModule : NSObject
 
 /**
- *  获取图片分类
+ *  获取文本笑话
  *
  *  @param params params description
  *  @param result result description
  *
  *  @return return value description
  */
-- (NSInteger)getJokePictureTypes:(YYJokePicturesRequestParams *)params result:(void (^)(YYJokePicturesResponseResult *responseResult))result;
+- (NSInteger)getJoke:(YYJokeRequestParams *)params result:(void (^)(YYJokeResponseResult *responseResult))result;
+
+/**
+ *  获取搞笑图片
+ *
+ *  @param params params description
+ *  @param result result description
+ *
+ *  @return return value description
+ */
+- (NSInteger)getJokePicture:(YYJokePicturesRequestParams *)params result:(void (^)(YYJokePicturesResponseResult *responseResult))result;
 
 @end

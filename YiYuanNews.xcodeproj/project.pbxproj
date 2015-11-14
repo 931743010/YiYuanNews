@@ -20,7 +20,6 @@
 		B3B81B1D1BF49474002DD7F0 /* YYNewsPageBeanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B1C1BF49474002DD7F0 /* YYNewsPageBeanModel.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B201BF499B6002DD7F0 /* YYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B1F1BF499B6002DD7F0 /* YYMainViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B241BF4C5B5002DD7F0 /* YYNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B231BF4C5B5002DD7F0 /* YYNewsViewController.m */; settings = {ASSET_TAGS = (); }; };
-		B3B81B311BF5B1CC002DD7F0 /* YYPicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B301BF5B1CC002DD7F0 /* YYPicturesViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B361BF5B24F002DD7F0 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B351BF5B24F002DD7F0 /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B391BF5CAB7002DD7F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B381BF5CAB7002DD7F0 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B3D1BF5DE56002DD7F0 /* YYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B3C1BF5DE56002DD7F0 /* YYWebViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -32,9 +31,6 @@
 		B3B81B4F1BF71C5F002DD7F0 /* YYJokePicturesRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B4E1BF71C5F002DD7F0 /* YYJokePicturesRequestParams.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B521BF71C87002DD7F0 /* YYJokePicturesResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B511BF71C87002DD7F0 /* YYJokePicturesResponseResult.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B571BF72146002DD7F0 /* YYJokeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B561BF72146002DD7F0 /* YYJokeModule.m */; settings = {ASSET_TAGS = (); }; };
-		B3B81B5C1BF7233B002DD7F0 /* YYJokePictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B5B1BF7233B002DD7F0 /* YYJokePictureCell.m */; settings = {ASSET_TAGS = (); }; };
-		B3B81B5F1BF72382002DD7F0 /* YYJokePicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B5E1BF72382002DD7F0 /* YYJokePicModel.m */; settings = {ASSET_TAGS = (); }; };
-		B3B81B621BF7248B002DD7F0 /* YYJokePicBodyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B611BF7248B002DD7F0 /* YYJokePicBodyModel.m */; settings = {ASSET_TAGS = (); }; };
 		B3DDD0B21BF42EFF00DD5B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DDD0B01BF42EFF00DD5B40 /* Main.storyboard */; };
 		B3DDD0B41BF42EFF00DD5B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DDD0B31BF42EFF00DD5B40 /* Assets.xcassets */; };
 		B3DDD0B71BF42EFF00DD5B40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DDD0B51BF42EFF00DD5B40 /* LaunchScreen.storyboard */; };
@@ -43,6 +39,16 @@
 		B3DDD7B81BF4402F00DD5B40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DDD7B61BF4402F00DD5B40 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		B3DDD7B91BF4402F00DD5B40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DDD7B71BF4402F00DD5B40 /* main.m */; settings = {ASSET_TAGS = (); }; };
 		B3DDD7C21BF441BF00DD5B40 /* YYNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DDD7C11BF441BF00DD5B40 /* YYNetworking.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56DE1BF749FF00BCADA2 /* YYPicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56D51BF749FF00BCADA2 /* YYPicturesViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56DF1BF749FF00BCADA2 /* YYJokePicBodyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56D81BF749FF00BCADA2 /* YYJokePicBodyModel.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56E01BF749FF00BCADA2 /* YYJokePicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56DA1BF749FF00BCADA2 /* YYJokePicModel.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56E11BF749FF00BCADA2 /* YYJokePictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56DD1BF749FF00BCADA2 /* YYJokePictureCell.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56E81BF74A5700BCADA2 /* YYJokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56E71BF74A5700BCADA2 /* YYJokeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56EB1BF74ADD00BCADA2 /* YYJokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56EA1BF74ADD00BCADA2 /* YYJokeModel.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56EE1BF74BE900BCADA2 /* YYJokeBodyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56ED1BF74BE900BCADA2 /* YYJokeBodyModel.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56F21BF74C5300BCADA2 /* YYJokeRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56F11BF74C5300BCADA2 /* YYJokeRequestParams.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56F51BF74C6600BCADA2 /* YYJokeResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56F41BF74C6600BCADA2 /* YYJokeResponseResult.m */; settings = {ASSET_TAGS = (); }; };
+		B3EB56F81BF74E6E00BCADA2 /* YYJokeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EB56F71BF74E6E00BCADA2 /* YYJokeCell.m */; settings = {ASSET_TAGS = (); }; };
 		CF99E1EEE53474C6A5D78024 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 123A00133BB5277B073D7A5E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -93,8 +99,6 @@
 		B3B81B1F1BF499B6002DD7F0 /* YYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMainViewController.m; sourceTree = "<group>"; };
 		B3B81B221BF4C5B5002DD7F0 /* YYNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNewsViewController.h; sourceTree = "<group>"; };
 		B3B81B231BF4C5B5002DD7F0 /* YYNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNewsViewController.m; sourceTree = "<group>"; };
-		B3B81B2F1BF5B1CC002DD7F0 /* YYPicturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPicturesViewController.h; sourceTree = "<group>"; };
-		B3B81B301BF5B1CC002DD7F0 /* YYPicturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPicturesViewController.m; sourceTree = "<group>"; };
 		B3B81B341BF5B24F002DD7F0 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		B3B81B351BF5B24F002DD7F0 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		B3B81B371BF5CAB7002DD7F0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -117,12 +121,6 @@
 		B3B81B511BF71C87002DD7F0 /* YYJokePicturesResponseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokePicturesResponseResult.m; sourceTree = "<group>"; };
 		B3B81B551BF72146002DD7F0 /* YYJokeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokeModule.h; sourceTree = "<group>"; };
 		B3B81B561BF72146002DD7F0 /* YYJokeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokeModule.m; sourceTree = "<group>"; };
-		B3B81B5A1BF7233B002DD7F0 /* YYJokePictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokePictureCell.h; sourceTree = "<group>"; };
-		B3B81B5B1BF7233B002DD7F0 /* YYJokePictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokePictureCell.m; sourceTree = "<group>"; };
-		B3B81B5D1BF72382002DD7F0 /* YYJokePicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokePicModel.h; sourceTree = "<group>"; };
-		B3B81B5E1BF72382002DD7F0 /* YYJokePicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokePicModel.m; sourceTree = "<group>"; };
-		B3B81B601BF7248B002DD7F0 /* YYJokePicBodyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokePicBodyModel.h; sourceTree = "<group>"; };
-		B3B81B611BF7248B002DD7F0 /* YYJokePicBodyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokePicBodyModel.m; sourceTree = "<group>"; };
 		B3DDD0A41BF42EFF00DD5B40 /* YiYuanNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiYuanNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DDD0B11BF42EFF00DD5B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3DDD0B31BF42EFF00DD5B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +137,26 @@
 		B3DDD7B71BF4402F00DD5B40 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3DDD7C01BF441BF00DD5B40 /* YYNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNetworking.h; sourceTree = "<group>"; };
 		B3DDD7C11BF441BF00DD5B40 /* YYNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNetworking.m; sourceTree = "<group>"; };
+		B3EB56D41BF749FF00BCADA2 /* YYPicturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPicturesViewController.h; sourceTree = "<group>"; };
+		B3EB56D51BF749FF00BCADA2 /* YYPicturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPicturesViewController.m; sourceTree = "<group>"; };
+		B3EB56D71BF749FF00BCADA2 /* YYJokePicBodyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokePicBodyModel.h; sourceTree = "<group>"; };
+		B3EB56D81BF749FF00BCADA2 /* YYJokePicBodyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokePicBodyModel.m; sourceTree = "<group>"; };
+		B3EB56D91BF749FF00BCADA2 /* YYJokePicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokePicModel.h; sourceTree = "<group>"; };
+		B3EB56DA1BF749FF00BCADA2 /* YYJokePicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokePicModel.m; sourceTree = "<group>"; };
+		B3EB56DC1BF749FF00BCADA2 /* YYJokePictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokePictureCell.h; sourceTree = "<group>"; };
+		B3EB56DD1BF749FF00BCADA2 /* YYJokePictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokePictureCell.m; sourceTree = "<group>"; };
+		B3EB56E61BF74A5700BCADA2 /* YYJokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokeViewController.h; sourceTree = "<group>"; };
+		B3EB56E71BF74A5700BCADA2 /* YYJokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokeViewController.m; sourceTree = "<group>"; };
+		B3EB56E91BF74ADD00BCADA2 /* YYJokeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokeModel.h; sourceTree = "<group>"; };
+		B3EB56EA1BF74ADD00BCADA2 /* YYJokeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokeModel.m; sourceTree = "<group>"; };
+		B3EB56EC1BF74BE900BCADA2 /* YYJokeBodyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokeBodyModel.h; sourceTree = "<group>"; };
+		B3EB56ED1BF74BE900BCADA2 /* YYJokeBodyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokeBodyModel.m; sourceTree = "<group>"; };
+		B3EB56F01BF74C5300BCADA2 /* YYJokeRequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokeRequestParams.h; sourceTree = "<group>"; };
+		B3EB56F11BF74C5300BCADA2 /* YYJokeRequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokeRequestParams.m; sourceTree = "<group>"; };
+		B3EB56F31BF74C6600BCADA2 /* YYJokeResponseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokeResponseResult.h; sourceTree = "<group>"; };
+		B3EB56F41BF74C6600BCADA2 /* YYJokeResponseResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokeResponseResult.m; sourceTree = "<group>"; };
+		B3EB56F61BF74E6E00BCADA2 /* YYJokeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokeCell.h; sourceTree = "<group>"; };
+		B3EB56F71BF74E6E00BCADA2 /* YYJokeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokeCell.m; sourceTree = "<group>"; };
 		E237B4CB78DD661EAEA00273 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,8 +206,9 @@
 		B3B81AFD1BF4833C002DD7F0 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				B3EB56E21BF74A3500BCADA2 /* Joke */,
+				B3EB56D21BF749FF00BCADA2 /* JokePics */,
 				B3B81B321BF5B1D2002DD7F0 /* Profile */,
-				B3B81B2D1BF5B1CC002DD7F0 /* Pics */,
 				B3B81B0A1BF48D9F002DD7F0 /* News */,
 			);
 			path = PresentationLayer;
@@ -229,25 +248,6 @@
 			children = (
 				B3B81B221BF4C5B5002DD7F0 /* YYNewsViewController.h */,
 				B3B81B231BF4C5B5002DD7F0 /* YYNewsViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		B3B81B2D1BF5B1CC002DD7F0 /* Pics */ = {
-			isa = PBXGroup;
-			children = (
-				B3B81B2E1BF5B1CC002DD7F0 /* Controller */,
-				B3B81B581BF7230F002DD7F0 /* Model */,
-				B3B81B591BF7230F002DD7F0 /* View */,
-			);
-			path = Pics;
-			sourceTree = "<group>";
-		};
-		B3B81B2E1BF5B1CC002DD7F0 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				B3B81B2F1BF5B1CC002DD7F0 /* YYPicturesViewController.h */,
-				B3B81B301BF5B1CC002DD7F0 /* YYPicturesViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 			name = News;
 			sourceTree = "<group>";
 		};
-		B3B81B541BF720F7002DD7F0 /* JokePic */ = {
+		B3B81B541BF720F7002DD7F0 /* Joke */ = {
 			isa = PBXGroup;
 			children = (
 				B3B81B551BF72146002DD7F0 /* YYJokeModule.h */,
@@ -312,28 +312,12 @@
 				B3B81B4E1BF71C5F002DD7F0 /* YYJokePicturesRequestParams.m */,
 				B3B81B501BF71C87002DD7F0 /* YYJokePicturesResponseResult.h */,
 				B3B81B511BF71C87002DD7F0 /* YYJokePicturesResponseResult.m */,
+				B3EB56F01BF74C5300BCADA2 /* YYJokeRequestParams.h */,
+				B3EB56F11BF74C5300BCADA2 /* YYJokeRequestParams.m */,
+				B3EB56F31BF74C6600BCADA2 /* YYJokeResponseResult.h */,
+				B3EB56F41BF74C6600BCADA2 /* YYJokeResponseResult.m */,
 			);
-			name = JokePic;
-			sourceTree = "<group>";
-		};
-		B3B81B581BF7230F002DD7F0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B3B81B5D1BF72382002DD7F0 /* YYJokePicModel.h */,
-				B3B81B5E1BF72382002DD7F0 /* YYJokePicModel.m */,
-				B3B81B601BF7248B002DD7F0 /* YYJokePicBodyModel.h */,
-				B3B81B611BF7248B002DD7F0 /* YYJokePicBodyModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B3B81B591BF7230F002DD7F0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B3B81B5A1BF7233B002DD7F0 /* YYJokePictureCell.h */,
-				B3B81B5B1BF7233B002DD7F0 /* YYJokePictureCell.m */,
-			);
-			path = View;
+			name = Joke;
 			sourceTree = "<group>";
 		};
 		B3DDD09B1BF42EFF00DD5B40 = {
@@ -437,9 +421,87 @@
 			isa = PBXGroup;
 			children = (
 				B3B81B531BF720E0002DD7F0 /* News */,
-				B3B81B541BF720F7002DD7F0 /* JokePic */,
+				B3B81B541BF720F7002DD7F0 /* Joke */,
 			);
 			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		B3EB56D21BF749FF00BCADA2 /* JokePics */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB56D31BF749FF00BCADA2 /* Controller */,
+				B3EB56D61BF749FF00BCADA2 /* Model */,
+				B3EB56DB1BF749FF00BCADA2 /* View */,
+			);
+			path = JokePics;
+			sourceTree = "<group>";
+		};
+		B3EB56D31BF749FF00BCADA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB56D41BF749FF00BCADA2 /* YYPicturesViewController.h */,
+				B3EB56D51BF749FF00BCADA2 /* YYPicturesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3EB56D61BF749FF00BCADA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB56D71BF749FF00BCADA2 /* YYJokePicBodyModel.h */,
+				B3EB56D81BF749FF00BCADA2 /* YYJokePicBodyModel.m */,
+				B3EB56D91BF749FF00BCADA2 /* YYJokePicModel.h */,
+				B3EB56DA1BF749FF00BCADA2 /* YYJokePicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3EB56DB1BF749FF00BCADA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB56DC1BF749FF00BCADA2 /* YYJokePictureCell.h */,
+				B3EB56DD1BF749FF00BCADA2 /* YYJokePictureCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3EB56E21BF74A3500BCADA2 /* Joke */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB56E31BF74A3500BCADA2 /* Controller */,
+				B3EB56E41BF74A3500BCADA2 /* Model */,
+				B3EB56E51BF74A3500BCADA2 /* View */,
+			);
+			path = Joke;
+			sourceTree = "<group>";
+		};
+		B3EB56E31BF74A3500BCADA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB56E61BF74A5700BCADA2 /* YYJokeViewController.h */,
+				B3EB56E71BF74A5700BCADA2 /* YYJokeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3EB56E41BF74A3500BCADA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB56E91BF74ADD00BCADA2 /* YYJokeModel.h */,
+				B3EB56EA1BF74ADD00BCADA2 /* YYJokeModel.m */,
+				B3EB56EC1BF74BE900BCADA2 /* YYJokeBodyModel.h */,
+				B3EB56ED1BF74BE900BCADA2 /* YYJokeBodyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3EB56E51BF74A3500BCADA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3EB56F61BF74E6E00BCADA2 /* YYJokeCell.h */,
+				B3EB56F71BF74E6E00BCADA2 /* YYJokeCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -624,33 +686,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3B81AF91BF47F87002DD7F0 /* YYNewsRequestParams.m in Sources */,
+				B3EB56DF1BF749FF00BCADA2 /* YYJokePicBodyModel.m in Sources */,
 				B3B81B241BF4C5B5002DD7F0 /* YYNewsViewController.m in Sources */,
-				B3B81B5C1BF7233B002DD7F0 /* YYJokePictureCell.m in Sources */,
+				B3EB56F21BF74C5300BCADA2 /* YYJokeRequestParams.m in Sources */,
 				B3B81B491BF6080B002DD7F0 /* YYNewsCellSingleImageLayout.m in Sources */,
 				B3B81B431BF60799002DD7F0 /* YYNewsCellLayout.m in Sources */,
 				B3DDD7B81BF4402F00DD5B40 /* AppDelegate.m in Sources */,
-				B3B81B621BF7248B002DD7F0 /* YYJokePicBodyModel.m in Sources */,
 				B3B81B361BF5B24F002DD7F0 /* ProfileViewController.m in Sources */,
 				B3B81B4C1BF6081C002DD7F0 /* YYNewsCellMultipleImagesLayout.m in Sources */,
+				B3EB56EB1BF74ADD00BCADA2 /* YYJokeModel.m in Sources */,
 				B3B81B141BF49185002DD7F0 /* YYNewsBodyModel.m in Sources */,
 				B3B81AF61BF47DBC002DD7F0 /* YYNewsModule.m in Sources */,
+				B3EB56DE1BF749FF00BCADA2 /* YYPicturesViewController.m in Sources */,
+				B3EB56E81BF74A5700BCADA2 /* YYJokeViewController.m in Sources */,
 				B3B81B461BF607C9002DD7F0 /* YYNewsCellNoImageLayout.m in Sources */,
 				B3B81B1D1BF49474002DD7F0 /* YYNewsPageBeanModel.m in Sources */,
 				B3B81B171BF492AD002DD7F0 /* YYNewsModel.m in Sources */,
 				B3B81B391BF5CAB7002DD7F0 /* ViewController.m in Sources */,
+				B3EB56F51BF74C6600BCADA2 /* YYJokeResponseResult.m in Sources */,
+				B3EB56F81BF74E6E00BCADA2 /* YYJokeCell.m in Sources */,
 				B3B81B521BF71C87002DD7F0 /* YYJokePicturesResponseResult.m in Sources */,
 				B3B81B571BF72146002DD7F0 /* YYJokeModule.m in Sources */,
 				B3B81B031BF48401002DD7F0 /* YYNewsChannelsResponseResult.m in Sources */,
 				B3B81B201BF499B6002DD7F0 /* YYMainViewController.m in Sources */,
+				B3EB56E01BF749FF00BCADA2 /* YYJokePicModel.m in Sources */,
 				B3B81B3D1BF5DE56002DD7F0 /* YYWebViewController.m in Sources */,
-				B3B81B5F1BF72382002DD7F0 /* YYJokePicModel.m in Sources */,
 				B3DDD7B91BF4402F00DD5B40 /* main.m in Sources */,
 				B3B81B111BF48DBD002DD7F0 /* YYNewsChannelModel.m in Sources */,
 				B3B81B401BF5E97A002DD7F0 /* YYNewsCell.m in Sources */,
 				B3B81B001BF483C8002DD7F0 /* YYNewsChannelRequestParams.m in Sources */,
+				B3EB56E11BF749FF00BCADA2 /* YYJokePictureCell.m in Sources */,
 				B3B81B4F1BF71C5F002DD7F0 /* YYJokePicturesRequestParams.m in Sources */,
-				B3B81B311BF5B1CC002DD7F0 /* YYPicturesViewController.m in Sources */,
 				B3DDD7C21BF441BF00DD5B40 /* YYNetworking.m in Sources */,
+				B3EB56EE1BF74BE900BCADA2 /* YYJokeBodyModel.m in Sources */,
 				B3B81B101BF48DBD002DD7F0 /* YYNewsChannelBodyModel.m in Sources */,
 				B3B81B1A1BF49370002DD7F0 /* YYNewsImageURLsModel.m in Sources */,
 				B3B81AFC1BF47FEC002DD7F0 /* YYNewsResponseResult.m in Sources */,

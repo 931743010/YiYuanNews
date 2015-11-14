@@ -30,7 +30,7 @@ static  NSString * const cellID = @"CellID";
     
     self.jokeModule = [[YYJokeModule alloc] init];
     __weak YYPicturesViewController *weakSelf = self;
-    [self.jokeModule getJokePictureTypes:nil result:^(YYJokePicturesResponseResult *responseResult) {
+    [self.jokeModule getJokePicture:nil result:^(YYJokePicturesResponseResult *responseResult) {
         YYJokePicBodyModel *jokePicBody = responseResult.showapi_res_body;
         weakSelf.jokePicContentList = jokePicBody.contentlist;
         [weakSelf.tableView reloadData];

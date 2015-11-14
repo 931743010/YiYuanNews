@@ -24,10 +24,20 @@
 
 
 /**
- *  易源 搞笑图片
+ *  易源 笑话
  */
 
-//获取图片分类
-#define kYYGetJokePicturesTypeURL @"http://apis.baidu.com/showapi_open_bus/showapi_joke/joke_pic"
+//文本笑话
+#define kYYGetJokeURL @"http://apis.baidu.com/showapi_open_bus/showapi_joke/joke_text"
+
+//获取搞笑图片
+#define kYYGetJokePicturesURL @"http://apis.baidu.com/showapi_open_bus/showapi_joke/joke_pic"
+
+/**
+ *  中国笑话
+ */
+
+//文本笑话
+#define kYYGetChinaJokeURL @"http://apis.baidu.com/hihelpsme/chinajoke/getjokelist"
 
 #endif /* YYPublic_h */

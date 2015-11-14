@@ -13,9 +13,22 @@
 
 @implementation YYJokeModule
 
-- (NSInteger)getJokePictureTypes:(YYJokePicturesRequestParams *)params result:(void (^)(YYJokePicturesResponseResult *))result
+- (NSInteger)getJoke:(YYJokeRequestParams *)params result:(void (^)(YYJokeResponseResult *))result
 {
-    [YYNetworking get:kYYGetJokePicturesTypeURL parameters:params success:^(id response) {
+    [YYNetworking get:kYYGetChinaJokeURL parameters:params success:^(id response) {
+        YYJokeResponseResult *responseResult = [YYJokeResponseResult mj_objectWithKeyValues:response];
+        if (result) {
+            result(responseResult);
+        }
+    } failure:^(NSError *error) {
+        NSLog(@"error:%@", error.description);
+    }];
+    return 0;
+}
+
+- (NSInteger)getJokePicture:(YYJokePicturesRequestParams *)params result:(void (^)(YYJokePicturesResponseResult *))result
+{
+    [YYNetworking get:kYYGetJokePicturesURL parameters:params success:^(id response) {
         YYJokePicturesResponseResult *responseResult = [YYJokePicturesResponseResult mj_objectWithKeyValues:response];
         if (result) {
             result(responseResult);
