@@ -7,6 +7,7 @@
 //
 
 #import "YYJokeViewController.h"
+#import "MJRefresh.h"
 #import "YYJokeCell.h"
 #import "YYJokeModule.h"
 
@@ -33,14 +34,21 @@ static NSString * const CellID = @"CellID";
     
     [self.tableView registerClass:[YYJokeCell class] forCellReuseIdentifier:CellID];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(requestLastestJoke)];
     
     self.jokeModule = [[YYJokeModule alloc] init];
+    
+    [self.tableView.mj_header beginRefreshing];
+}
+
+- (void)requestLastestJoke
+{
     __weak YYJokeViewController *weakSelf = self;
     [self.jokeModule getJoke:nil result:^(YYJokeResponseResult *responseResult) {
         weakSelf.jokeList = responseResult.res_body.JokeList;
         [weakSelf.tableView reloadData];
+        [weakSelf.tableView.mj_header endRefreshing];
     }];
-    
 }
 
 - (void)didReceiveMemoryWarning {
