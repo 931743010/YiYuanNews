@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B3A3BE1A1BF9CB4D002D055F /* YYJokeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A3BE191BF9CB4D002D055F /* YYJokeDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B3A3BE221BF9DC40002D055F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A3BE201BF9DC40002D055F /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B3A3BE231BF9DC40002D055F /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A3BE211BF9DC40002D055F /* ProfileViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		B3B81AF61BF47DBC002DD7F0 /* YYNewsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81AF51BF47DBC002DD7F0 /* YYNewsModule.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81AF91BF47F87002DD7F0 /* YYNewsRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81AF81BF47F87002DD7F0 /* YYNewsRequestParams.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81AFC1BF47FEC002DD7F0 /* YYNewsResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81AFB1BF47FEC002DD7F0 /* YYNewsResponseResult.m */; settings = {ASSET_TAGS = (); }; };
@@ -21,7 +23,6 @@
 		B3B81B1D1BF49474002DD7F0 /* YYNewsPageBeanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B1C1BF49474002DD7F0 /* YYNewsPageBeanModel.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B201BF499B6002DD7F0 /* YYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B1F1BF499B6002DD7F0 /* YYMainViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B241BF4C5B5002DD7F0 /* YYNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B231BF4C5B5002DD7F0 /* YYNewsViewController.m */; settings = {ASSET_TAGS = (); }; };
-		B3B81B361BF5B24F002DD7F0 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B351BF5B24F002DD7F0 /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B391BF5CAB7002DD7F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B381BF5CAB7002DD7F0 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B3D1BF5DE56002DD7F0 /* YYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B3C1BF5DE56002DD7F0 /* YYWebViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81B401BF5E97A002DD7F0 /* YYNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81B3F1BF5E97A002DD7F0 /* YYNewsCell.m */; settings = {ASSET_TAGS = (); }; };
@@ -75,6 +76,9 @@
 		ADE04D471CA9568EB0C3CA86 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B3A3BE181BF9CB4D002D055F /* YYJokeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokeDetailViewController.h; sourceTree = "<group>"; };
 		B3A3BE191BF9CB4D002D055F /* YYJokeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokeDetailViewController.m; sourceTree = "<group>"; };
+		B3A3BE1F1BF9DC40002D055F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		B3A3BE201BF9DC40002D055F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		B3A3BE211BF9DC40002D055F /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		B3B81AE41BF46889002DD7F0 /* YYPublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPublic.h; sourceTree = "<group>"; };
 		B3B81AF41BF47DBC002DD7F0 /* YYNewsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNewsModule.h; sourceTree = "<group>"; };
 		B3B81AF51BF47DBC002DD7F0 /* YYNewsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNewsModule.m; sourceTree = "<group>"; };
@@ -102,8 +106,6 @@
 		B3B81B1F1BF499B6002DD7F0 /* YYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMainViewController.m; sourceTree = "<group>"; };
 		B3B81B221BF4C5B5002DD7F0 /* YYNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNewsViewController.h; sourceTree = "<group>"; };
 		B3B81B231BF4C5B5002DD7F0 /* YYNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNewsViewController.m; sourceTree = "<group>"; };
-		B3B81B341BF5B24F002DD7F0 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		B3B81B351BF5B24F002DD7F0 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		B3B81B371BF5CAB7002DD7F0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B3B81B381BF5CAB7002DD7F0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B3B81B3B1BF5DE56002DD7F0 /* YYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWebViewController.h; sourceTree = "<group>"; };
@@ -206,6 +208,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B3A3BE1B1BF9DA9E002D055F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3A3BE1C1BF9DA9E002D055F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B3B81AFD1BF4833C002DD7F0 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +274,8 @@
 		B3B81B321BF5B1D2002DD7F0 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				B3A3BE1B1BF9DA9E002D055F /* Model */,
+				B3A3BE1C1BF9DA9E002D055F /* View */,
 				B3B81B331BF5B1D2002DD7F0 /* Controller */,
 			);
 			path = Profile;
@@ -266,8 +284,9 @@
 		B3B81B331BF5B1D2002DD7F0 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B3B81B341BF5B24F002DD7F0 /* ProfileViewController.h */,
-				B3B81B351BF5B24F002DD7F0 /* ProfileViewController.m */,
+				B3A3BE1F1BF9DC40002D055F /* ProfileViewController.h */,
+				B3A3BE201BF9DC40002D055F /* ProfileViewController.m */,
+				B3A3BE211BF9DC40002D055F /* ProfileViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -618,6 +637,7 @@
 			files = (
 				B3DDD0B71BF42EFF00DD5B40 /* LaunchScreen.storyboard in Resources */,
 				B3DDD0B41BF42EFF00DD5B40 /* Assets.xcassets in Resources */,
+				B3A3BE231BF9DC40002D055F /* ProfileViewController.xib in Resources */,
 				B3DDD0B21BF42EFF00DD5B40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,7 +719,6 @@
 				B3B81B491BF6080B002DD7F0 /* YYNewsCellSingleImageLayout.m in Sources */,
 				B3B81B431BF60799002DD7F0 /* YYNewsCellLayout.m in Sources */,
 				B3DDD7B81BF4402F00DD5B40 /* AppDelegate.m in Sources */,
-				B3B81B361BF5B24F002DD7F0 /* ProfileViewController.m in Sources */,
 				B3B81B4C1BF6081C002DD7F0 /* YYNewsCellMultipleImagesLayout.m in Sources */,
 				B3EB56EB1BF74ADD00BCADA2 /* YYJokeModel.m in Sources */,
 				B3B81B141BF49185002DD7F0 /* YYNewsBodyModel.m in Sources */,
@@ -714,6 +733,7 @@
 				B3EB56F81BF74E6E00BCADA2 /* YYJokeCell.m in Sources */,
 				B3B81B521BF71C87002DD7F0 /* YYJokePicturesResponseResult.m in Sources */,
 				B3B81B571BF72146002DD7F0 /* YYJokeModule.m in Sources */,
+				B3A3BE221BF9DC40002D055F /* ProfileViewController.m in Sources */,
 				B3B81B031BF48401002DD7F0 /* YYNewsChannelsResponseResult.m in Sources */,
 				B3B81B201BF499B6002DD7F0 /* YYMainViewController.m in Sources */,
 				B3EB56E01BF749FF00BCADA2 /* YYJokePicModel.m in Sources */,

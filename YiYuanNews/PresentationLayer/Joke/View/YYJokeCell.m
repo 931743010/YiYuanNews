@@ -87,7 +87,8 @@
         [operationBar addSubview:collectionBtn];
         [collectionBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(shareBtn.mas_top);
-            make.left.equalTo(shareBtn.mas_right).with.offset(5);
+            //make.left.equalTo(shareBtn.mas_right).with.offset(5);
+            make.right.equalTo(operationBar.mas_right).with.offset(-5);
             make.bottom.mas_equalTo(shareBtn.mas_bottom);
             make.width.mas_equalTo(shareBtn.mas_width);
         }];

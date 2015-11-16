@@ -2,7 +2,7 @@
 //  ProfileViewController.m
 //  YiYuanNews
 //
-//  Created by fun on 15/11/13.
+//  Created by fun on 15/11/16.
 //  Copyright © 2015年 fun. All rights reserved.
 //
 
@@ -10,13 +10,17 @@
 
 @interface ProfileViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *avatorImageView;
+
+
 @end
 
 @implementation ProfileViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
+    self.avatorImageView.layer.cornerRadius = 55;
 }
 
 - (void)didReceiveMemoryWarning {
