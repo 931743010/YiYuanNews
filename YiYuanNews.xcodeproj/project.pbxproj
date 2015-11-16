@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3A3BE1A1BF9CB4D002D055F /* YYJokeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A3BE191BF9CB4D002D055F /* YYJokeDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81AF61BF47DBC002DD7F0 /* YYNewsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81AF51BF47DBC002DD7F0 /* YYNewsModule.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81AF91BF47F87002DD7F0 /* YYNewsRequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81AF81BF47F87002DD7F0 /* YYNewsRequestParams.m */; settings = {ASSET_TAGS = (); }; };
 		B3B81AFC1BF47FEC002DD7F0 /* YYNewsResponseResult.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B81AFB1BF47FEC002DD7F0 /* YYNewsResponseResult.m */; settings = {ASSET_TAGS = (); }; };
@@ -72,6 +73,8 @@
 /* Begin PBXFileReference section */
 		123A00133BB5277B073D7A5E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE04D471CA9568EB0C3CA86 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B3A3BE181BF9CB4D002D055F /* YYJokeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJokeDetailViewController.h; sourceTree = "<group>"; };
+		B3A3BE191BF9CB4D002D055F /* YYJokeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJokeDetailViewController.m; sourceTree = "<group>"; };
 		B3B81AE41BF46889002DD7F0 /* YYPublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYPublic.h; sourceTree = "<group>"; };
 		B3B81AF41BF47DBC002DD7F0 /* YYNewsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNewsModule.h; sourceTree = "<group>"; };
 		B3B81AF51BF47DBC002DD7F0 /* YYNewsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNewsModule.m; sourceTree = "<group>"; };
@@ -480,6 +483,8 @@
 			children = (
 				B3EB56E61BF74A5700BCADA2 /* YYJokeViewController.h */,
 				B3EB56E71BF74A5700BCADA2 /* YYJokeViewController.m */,
+				B3A3BE181BF9CB4D002D055F /* YYJokeDetailViewController.h */,
+				B3A3BE191BF9CB4D002D055F /* YYJokeDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -690,6 +695,7 @@
 				B3EB56DF1BF749FF00BCADA2 /* YYJokePicBodyModel.m in Sources */,
 				B3B81B241BF4C5B5002DD7F0 /* YYNewsViewController.m in Sources */,
 				B3EB56F21BF74C5300BCADA2 /* YYJokeRequestParams.m in Sources */,
+				B3A3BE1A1BF9CB4D002D055F /* YYJokeDetailViewController.m in Sources */,
 				B3B81B491BF6080B002DD7F0 /* YYNewsCellSingleImageLayout.m in Sources */,
 				B3B81B431BF60799002DD7F0 /* YYNewsCellLayout.m in Sources */,
 				B3DDD7B81BF4402F00DD5B40 /* AppDelegate.m in Sources */,

@@ -35,9 +35,9 @@ static NSString * const CellID = @"CellID";
     [self.tableView registerClass:[YYJokeCell class] forCellReuseIdentifier:CellID];
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(requestLastestJoke)];
+    self.tableView.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1];
     
     self.jokeModule = [[YYJokeModule alloc] init];
-    
     [self.tableView.mj_header beginRefreshing];
 }
 
@@ -69,6 +69,11 @@ static NSString * const CellID = @"CellID";
     YYJokeModel *jokeModel = self.jokeList[indexPath.row];
     cell.jokeModel = jokeModel;
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 250;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
